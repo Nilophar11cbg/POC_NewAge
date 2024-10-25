@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    region:
+      static: eu-north-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: your-secret-key
+      secret-key: your-access-key
+    end-point:
+      uri: https://sqs.eu-north-1.amazonaws.com/985539766483/first-queue 
